@@ -1,0 +1,29 @@
+<div class="page-wrapper">
+  <div class="nav-wrapper">
+    <div class="grad-bar"></div>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/128/5832/5832416.png">
+        <h3>N<span>ovel</span>N<span>est</span></h3>
+
+      </div>
+  
+
+      <div class="menu-toggle" id="mobile-menu" (click)="toggleMenu()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav no-search" [ngClass]="{'show-menu': isMenuOpen, 'mobile-nav': isMenuOpen}">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#">About</a></li>
+        <li class="nav-item"><a href="#">Books</a></li>
+        <li class="nav-item"><a href="#">Login</a></li>
+        <li class="nav-item"><a href="#">Contact</a></li>
+ 
+     
+      </ul>
+    </nav>
+  </div>
+
+ </div>
